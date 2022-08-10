@@ -1,0 +1,48 @@
+{
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "guns",
+        "children": []
+      },
+      {
+        "name": "procedures",
+        "children": []
+      },
+      {
+        "name": "blocks",
+        "children": []
+      },
+      {
+        "name": "entidades",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "guns",
+    "modName": "Guns",
+    "version": "Dev-0.0.1",
+    "author": "NeyGeyex",
+    "websiteURL": "http://craftverse.ga/",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": true,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Maded whit MCreator by Ney",
+    "modElementsPackage": "arcadework.guns",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200231711
+}
