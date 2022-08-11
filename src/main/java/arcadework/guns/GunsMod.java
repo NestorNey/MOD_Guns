@@ -39,6 +39,8 @@ import net.minecraft.block.Block;
 
 import java.util.function.Supplier;
 
+import software.bernie.geckolib3.GeckoLib;
+
 @Mod("guns")
 public class GunsMod {
 	public static final Logger LOGGER = LogManager.getLogger(GunsMod.class);
@@ -48,6 +50,7 @@ public class GunsMod {
 	public GunsModElements elements;
 
 	public GunsMod() {
+		GeckoLib.initialize();
 		elements = new GunsModElements();
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::init);

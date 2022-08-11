@@ -7,13 +7,40 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "guns"
+    },
+    {
+      "name": "GlockWepon",
+      "type": "rangeditem",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "glock_wepon"
+    },
+    {
+      "name": "D",
+      "type": "livingentity",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d"
+    },
+    {
+      "name": "GlockModel",
+      "type": "code",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "glock_model"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tabguns": "Guns"
+      "itemGroup.tabguns": "Guns",
+      "item.guns.glock_wepon": "Glock",
+      "entity.guns.d": "D",
+      "item.guns.d_spawn_egg": "D Spawn Egg"
     }
   },
   "foldersRoot": {
@@ -45,7 +72,7 @@
     "websiteURL": "http://craftverse.ga/",
     "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
-    "serverSideOnly": true,
+    "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
@@ -53,7 +80,7 @@
     "currentGenerator": "forge-1.16.5",
     "credits": "Maded whit MCreator by Ney",
     "modElementsPackage": "arcadework.guns",
-    "lockBaseModFiles": false
+    "lockBaseModFiles": true
   },
   "mcreatorVersion": 202200231711
 }

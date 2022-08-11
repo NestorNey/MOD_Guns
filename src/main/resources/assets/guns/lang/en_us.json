@@ -1,3 +1,6 @@
 {
-  "itemGroup.tabguns": "Guns"
+  "itemGroup.tabguns": "Guns",
+  "item.guns.glock_wepon": "Glock",
+  "entity.guns.d": "D",
+  "item.guns.d_spawn_egg": "D Spawn Egg"
 }
