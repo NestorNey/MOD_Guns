@@ -17,20 +17,37 @@
       "registry_name": "glock_wepon"
     },
     {
-      "name": "D",
-      "type": "livingentity",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "d"
-    },
-    {
       "name": "GlockModel",
       "type": "code",
       "sortid": 4,
       "compiles": true,
       "locked_code": true,
       "registry_name": "glock_model"
+    },
+    {
+      "name": "Ft",
+      "type": "livingentity",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ft"
+    },
+    {
+      "name": "Uug",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uug"
+    },
+    {
+      "name": "Gun",
+      "type": "rangeditem",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gun",
+      "path": "~/tutorial"
     }
   ],
   "variable_elements": [],
@@ -38,9 +55,11 @@
   "language_map": {
     "en_us": {
       "itemGroup.tabguns": "Guns",
+      "entity.guns.ft": "Ft",
       "item.guns.glock_wepon": "Glock",
-      "entity.guns.d": "D",
-      "item.guns.d_spawn_egg": "D Spawn Egg"
+      "item.guns.gun": "Gun",
+      "item.guns.uug": "Uug",
+      "item.guns.ft_spawn_egg": "Ft Spawn Egg"
     }
   },
   "foldersRoot": {
@@ -60,6 +79,10 @@
       },
       {
         "name": "entidades",
+        "children": []
+      },
+      {
+        "name": "tutorial",
         "children": []
       }
     ]

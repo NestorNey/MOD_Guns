@@ -8,12 +8,12 @@ import software.bernie.geckolib3.model.AnimatedGeoModel;
 public class GlockModel extends AnimatedGeoModel<ItemRanged> {
 	@Override
 	public ResourceLocation getModelLocation(ItemRanged object) {
-		return new ResourceLocation("guns:/glock.geo.json");
+		return new ResourceLocation("guns:geo/glock.geo.json");
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(ItemRanged object) {
-		return new ResourceLocation("guns:textures/item/glock_main.png");
+		return new ResourceLocation("guns:textures/items/glock_main.png");
 	}
 
 	@Override

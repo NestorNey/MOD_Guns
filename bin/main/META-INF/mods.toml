@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="guns"
+version="0.0.1"
+displayName="Guns"
+credits="Maded whit MCreator by Ney"
+displayURL="http://craftverse.ga/"
+authors="NeyGeyex"
+
+[[dependencies.guns]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

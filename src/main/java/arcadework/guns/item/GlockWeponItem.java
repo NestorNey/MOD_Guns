@@ -39,6 +39,7 @@ import java.util.List;
 
 import arcadework.guns.itemgroup.GunsItemGroup;
 import arcadework.guns.entity.renderer.GlockWeponRenderer;
+import arcadework.guns.entity.renderer.GlockWeponRenderer.GlockRenderer;
 import arcadework.guns.GunsModElements;
 
 import software.bernie.geckolib3.core.AnimationState;
@@ -82,7 +83,7 @@ public class GlockWeponItem extends GunsModElements.ModElement {
 		public AnimationFactory factory = new AnimationFactory(this);
 		
 		public ItemRanged() {
-			super(new Item.Properties().group(GunsItemGroup.tab).maxStackSize(1));
+			super(new Item.Properties().group(GunsItemGroup.tab).maxStackSize(1).setISTER(() -> GlockRenderer::new));
 			GeckoLibNetwork.registerSyncable(this);
 			setRegistryName("glock_wepon");
 		}
