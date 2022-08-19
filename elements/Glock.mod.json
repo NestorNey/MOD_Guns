@@ -2,23 +2,23 @@
   "_fv": 33,
   "_type": "item",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "glock_main",
-    "customModelName": "Normal",
-    "name": "Uug",
+    "customModelName": "glock.item:default",
+    "name": "Glock",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Guns"
     },
-    "stackSize": 64,
-    "enchantability": 0,
+    "stackSize": 1,
+    "enchantability": 2,
     "useDuration": 0,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
       "value": ""
     },
-    "destroyAnyBlock": false,
+    "destroyAnyBlock": true,
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
@@ -29,6 +29,9 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "GlockRightclicked"
+    },
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,
@@ -37,6 +40,6 @@
     },
     "isMeat": false,
     "isAlwaysEdible": false,
-    "animation": "eat"
+    "animation": "none"
   }
 }

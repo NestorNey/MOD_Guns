@@ -4,7 +4,7 @@
   "definition": {
     "name": "Guns",
     "icon": {
-      "value": "Blocks.SKULL#1"
+      "value": "Blocks.AIR"
     },
     "showSearch": false
   }

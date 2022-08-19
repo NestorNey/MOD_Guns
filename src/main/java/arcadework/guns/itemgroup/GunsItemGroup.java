@@ -22,7 +22,7 @@ public class GunsItemGroup extends GunsModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(Blocks.WITHER_SKELETON_SKULL);
+				return new ItemStack(Blocks.AIR);
 			}
 
 			@OnlyIn(Dist.CLIENT)

@@ -9,45 +9,30 @@
       "registry_name": "guns"
     },
     {
-      "name": "GlockWepon",
-      "type": "rangeditem",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "glock_wepon"
-    },
-    {
-      "name": "GlockModel",
-      "type": "code",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "glock_model"
-    },
-    {
-      "name": "Ft",
-      "type": "livingentity",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ft"
-    },
-    {
-      "name": "Uug",
+      "name": "Glock",
       "type": "item",
-      "sortid": 6,
+      "sortid": 10,
       "compiles": true,
-      "locked_code": false,
-      "registry_name": "uug"
+      "locked_code": true,
+      "registry_name": "glock",
+      "path": "~/guns/glock"
     },
     {
-      "name": "Gun",
-      "type": "rangeditem",
-      "sortid": 7,
+      "name": "GlockRightclicked",
+      "type": "procedure",
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gun",
-      "path": "~/tutorial"
+      "registry_name": "glock_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/guns/glock"
     }
   ],
   "variable_elements": [],
@@ -55,11 +40,7 @@
   "language_map": {
     "en_us": {
       "itemGroup.tabguns": "Guns",
-      "entity.guns.ft": "Ft",
-      "item.guns.glock_wepon": "Glock",
-      "item.guns.gun": "Gun",
-      "item.guns.uug": "Uug",
-      "item.guns.ft_spawn_egg": "Ft Spawn Egg"
+      "item.guns.glock": "Glock"
     }
   },
   "foldersRoot": {
@@ -67,7 +48,12 @@
     "children": [
       {
         "name": "guns",
-        "children": []
+        "children": [
+          {
+            "name": "glock",
+            "children": []
+          }
+        ]
       },
       {
         "name": "procedures",
@@ -105,5 +91,5 @@
     "modElementsPackage": "arcadework.guns",
     "lockBaseModFiles": true
   },
-  "mcreatorVersion": 202200231711
+  "mcreatorVersion": 202200233511
 }
