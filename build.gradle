@@ -58,12 +58,8 @@ minecraft {
     }
 }
 
-repositories {
-        maven { url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
-}
 dependencies {
-		minecraft 'net.minecraftforge:forge:1.16.5-36.2.26'
-        implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.16.5:3.0.87')
+    minecraft 'net.minecraftforge:forge:1.16.5-36.2.26'
 }
 
 apply from: 'mcreator.gradle'

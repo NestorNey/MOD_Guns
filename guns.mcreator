@@ -12,7 +12,7 @@
       "name": "Glock",
       "type": "item",
       "sortid": 10,
-      "compiles": true,
+      "compiles": false,
       "locked_code": true,
       "registry_name": "glock",
       "path": "~/guns/glock"
@@ -91,5 +91,5 @@
     "modElementsPackage": "arcadework.guns",
     "lockBaseModFiles": true
   },
-  "mcreatorVersion": 202200233511
+  "mcreatorVersion": 202200234517
 }
