@@ -61,6 +61,9 @@ minecraft {
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.5-36.2.26'
 }
-
+dependencies {
+	minecraft 'net.minecraftforge:forge:1.16.5-36.2.26'
+    implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.16.5:3.0.87')
+}
 apply from: 'mcreator.gradle'
 
