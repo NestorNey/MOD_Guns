@@ -1,6 +1,0 @@
-{
-  "parent": "guns:custom/glock.item",
-  "textures": {
-    "particle": "guns:items/glock_main"
-  }
-}
